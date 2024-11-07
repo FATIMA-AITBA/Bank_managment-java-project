@@ -170,8 +170,6 @@ public class BanqueApp extends Application {
 
     // Méthode pour obtenir la liste des banques
     private List<Banque> getBanques() {
-        // Ajouter la logique pour obtenir toutes les banques disponibles
-        // Exemple : Si les banques sont stockées dans une liste ou un autre objet
         return Arrays.asList(new Banque(1, "France"), new Banque(2, "Allemagne"));
     }
 }
